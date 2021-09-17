@@ -1,3 +1,5 @@
+
+/*-----Allmänna inställningar-----*/
 html, body {width: 100%; height: auto; padding: 0; margin: 0;}
 body {background-image: url(img/background.jpg); color: #d4d4d4;}
 
@@ -19,9 +21,16 @@ header {margin: 7% 5%; }
 
 #break {clear: both;}
 
+.fullWidth {width: 100%; height: auto;}
+
 footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-align: center;}
 
+/*-----Kontaktsida-----*/
+
+
 @media screen and (min-width: 800px) {
+
+    /*-----Allmänna inställningar-----*/
     header {margin: 4% 7%; }
     #logo {width: 100%; margin-bottom: 4%; text-align: center; }
     #logoImg {width: 60%; height: auto; }
@@ -30,9 +39,17 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     #navList {width: 80%; height: auto; position: static; margin: 0 10%; background-color:#d4d4d4; text-align: center; clear: both;}
     #navList a {width: 16%; margin: 0; padding: 2% 4%; display: inline-block; background-color: #d4d4d4; text-align: center; }
     .unvisible {visibility: visible;}
+
+    /*-----Kontaktsida-----*/
+
 }
 
 @media screen and (min-width: 1350px) {
+
+    /*-----Allmänna inställningar-----*/
     header {margin: 3% 20%; }
+
+    /*-----Kontaktsida-----*/
+
 
 }
