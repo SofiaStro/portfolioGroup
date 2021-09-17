@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="sofiaWorking.css" />
 
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Hachi+Maru+Pop&family=Yantramanav:wght@300&display=swap" rel="stylesheet">        
     </head>
@@ -29,17 +30,30 @@
 
         <br id="break"/>
 
-        <div id="content">
+        <div class="content">
+            <div id="contactBox">
+                <div id="contactBoxText">
+                    <h2>Kontakta oss</h2>
+                    <p>Vi vill gärna ta del av dina tankar och åsikter. Genom att fylla i formuläret kan du komma i kontakt med oss. Vi ser fram emot att höra ifrån dig!</p>
+                </div>
 
+                <form id="contactBoxForm">
+                    <label for="name">Namn: </label><input type="text" id="contactBoxFormName"><br>
+                    <label for="phone">Telefon:</label><input type="tel" id="contactBoxFormPhone"><br>
+                    <label for="email">E-post: </label><input type="email" id="contactBoxFormEmail"><br>
+                    <label for="name">Meddelande: </label><input type="text" id="contactBoxFormMsg"><br><br>
+                    <input type="submit" value="Skicka" id="contactBoxFormBtn">
+                </form>
+            </div>
+
+            <div class="fullWidth contactImg">
+                <img src="img/contactImg.jpg" alt="">
+            </div>
         </div>
   
-
         <footer>
             <p>&copy; Portfolio Group AB</p>
         </footer>
-
-
-
 
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="script.js"></script>

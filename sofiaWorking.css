@@ -1,0 +1,62 @@
+
+/*-----Allmänna inställningar-----
+html, body {width: 100%; height: auto; padding: 0; margin: 0;}
+body {background-image: url(img/background.jpg); color: #d4d4d4;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Hachi Maru Pop', cursive; text-transform: uppercase;}
+a, q {font-family: 'Caveat', cursive;}
+p {font-family: 'Yantramanav', sans-serif;}
+
+header {margin: 7% 5%; }
+#logo {width: 85%; height: auto; float: left;}
+#logoImg {width: 90%; height: auto;}
+
+#navBox {width: 15%; height: auto; float: left;}
+#navBoxImg {width: 70%; padding: 15%; float: right;}
+
+#navList {width: 90%; height: auto; position: fixed; margin: 15% 0; padding: 0;}
+#navList a {width:30%; display: block; margin-left: 55%; padding: 8%; background-color: #d4d4d4; color: black; text-decoration: none; text-align:right;}
+.unvisible {visibility: hidden;}
+.visible {visibility: visible;}
+
+#break {clear: both;}
+
+.fullWidth {width: 100%; height: auto;}
+
+footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-align: center;}*/
+
+/*-----Kontaktsida-----*/
+#contactBox {margin: 0 7% 7%;}
+#contactBoxForm {background-color: blueviolet; padding: 0 4%;}
+#contactBoxForm input {width: 30%;margin: 2%;}
+
+.contactImg {background-color: brown; height: auto;}
+.contactImg img {width: 100%;}
+
+@media screen and (min-width: 800px) {
+    /*-----Allmänna inställningar-----
+    header {margin: 4% 7%; }
+    #logo {width: 100%; margin-bottom: 4%; text-align: center; }
+    #logoImg {width: 60%; height: auto; }
+
+    #navBox {display: none;}
+    #navList {width: 80%; height: auto; position: static; margin: 0 10%; background-color:#d4d4d4; text-align: center; clear: both;}
+    #navList a {width: 16%; margin: 0; padding: 2% 4%; display: inline-block; background-color: #d4d4d4; text-align: center; }
+    .unvisible {visibility: visible;}*/
+
+    /*-----Kontaktsida-----*/
+    #contactBox {margin: 0; width: 50%; float: right; background-color: brown;}
+    .contactImg {width: 50%; margin: 0 ;}
+    #contactBoxForm {background-color: blueviolet;}
+    .contactImg img {width: 100%; height: auto;}
+}
+
+@media screen and (min-width: 1350px) {
+
+    /*-----Allmänna inställningar-----
+    header {margin: 3% 20%; }*/
+
+    /*-----Kontaktsida-----*/
+
+
+}
