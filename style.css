@@ -1,6 +1,10 @@
 html, body {width: 100%; height: auto; padding: 0; margin: 0;}
 body {background-image: url(img/background.jpg); color: #d4d4d4;}
 
+h1, h2, h3, h4, h5, h6 {font-family: 'Hachi Maru Pop', cursive; text-transform: uppercase;}
+a, q {font-family: 'Caveat', cursive;}
+p {font-family: 'Yantramanav', sans-serif;}
+
 header {margin: 7% 5%; }
 #logo {width: 85%; height: auto; float: left;}
 #logoImg {width: 90%; height: auto;}
