@@ -29,12 +29,22 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 
 /*-----Portfolio-----*/
-.portfolioImgBox {width: 60%; height: auto; margin: 10% 20% 5% 20%;} 
-.portfolioImg {width: 100%; height: auto;}
+.portfolioImgBox {width: 40%; height: auto; margin: 10% 30% 5% 30%; overflow: hidden;} 
 
 .portfolioText {text-align: center; margin: 5% 10%;}
 
 .portfolioBreakLine {margin: 10%;}
+
+/*-----(Elin)individuell - klasser att använda på alla individuella sidor?-----*/
+.individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
+
+.individuellText {text-align: center; margin: 5% 10% 0 10%;}
+
+.individuellLinkBox {width: 100%; height: auto; text-align: center; margin: 3% 0;}
+.individuellLinkImg {width: 15%; height: auto; margin: 3%}
+
+.individuellSkillBox {width: 100%; height: auto; text-align: center;}
+.individuellSkillImg {width: 35%; height: auto; margin: 2%}
 
 
 
@@ -43,7 +53,6 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     /*-----Allmänna inställningar-----*/
     header {margin: 4% 7%; }
     #logo {width: 100%; margin-bottom: 4%; text-align: center; }
-    #logoImg {width: 60%; height: auto; }
 
     #navBox {display: none;}
     #navList {width: 80%; height: auto; position: static; margin: 0 10%; background-color:#d4d4d4; text-align: center; clear: both;}
@@ -54,7 +63,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 
     /*-----Portfolio-----*/
-    .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
+    .portfolioImgBox {width: 30%; height: auto; margin: 1% 5% 5% ; float: left;}
     .portfolioText {text-align: center; margin: 5% 5%;}
     .portfolioBreakLine {margin: 5%; clear: both;}
 }
