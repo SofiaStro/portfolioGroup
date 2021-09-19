@@ -23,4 +23,16 @@ $(document).ready(function(){
             $('#navBoxImg').attr('src', 'img/nav.png');
         };
     });
+
+    /* Animering test (Elin) Visar på tisdag :D
+
+    $('#testImgOne').mouseenter(function(){
+        $('#testImgTwo').slideDown(1000);
+    });
+    $('#testImgOne').mouseleave(function(){
+        $('#testImgTwo').slideUp(1000);
+    });
+
+    */
+
 });

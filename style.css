@@ -35,7 +35,28 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 .portfolioBreakLine {margin: 10%;}
 
-/*-----(Elin)individuell - klasser att använda på alla individuella sidor?-----*/
+/* Animering test (Elin) Visar på tisdag :D
+#testBox {
+    width: 300px;
+    height: 400px;
+    position: relative; 
+}
+
+#testImgOne {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+}
+
+#testImgTwo {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}*/
+
+/*-----(Elin)Individuell - klasser att använda på alla individuella sidor?-----*/
 .individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
 
 .individuellText {text-align: center; margin: 5% 10% 0 10%;}
@@ -63,9 +84,10 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 
     /*-----Portfolio-----*/
-    .portfolioImgBox {width: 30%; height: auto; margin: 1% 5% 5% ; float: left;}
+    .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
     .portfolioText {text-align: center; margin: 5% 5%;}
     .portfolioBreakLine {margin: 5%; clear: both;}
+
 }
 
 @media screen and (min-width: 1350px) {
