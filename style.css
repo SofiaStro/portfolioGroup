@@ -28,6 +28,16 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 /*-----Kontaktsida-----*/
 
 
+/*-----Portfolio-----*/
+.portfolioImgBox {width: 60%; height: auto; margin: 10% 20% 5% 20%;} 
+.portfolioImg {width: 100%; height: auto;}
+
+.portfolioText {text-align: center; margin: 5% 10%;}
+
+.portfolioBreakLine {margin: 10%;}
+
+
+
 @media screen and (min-width: 800px) {
 
     /*-----Allmänna inställningar-----*/
@@ -42,6 +52,11 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
     /*-----Kontaktsida-----*/
 
+
+    /*-----Portfolio-----*/
+    .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
+    .portfolioText {text-align: center; margin: 5% 5%;}
+    .portfolioBreakLine {margin: 5%; clear: both;}
 }
 
 @media screen and (min-width: 1350px) {
