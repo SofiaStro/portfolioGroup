@@ -93,7 +93,12 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .portfolioText {text-align: center; margin: 5% 5%;}
     .portfolioBreakLine {margin: 5%; clear: both;}
 
-    
+    /*-----(Elin) Individuell-----*/
+    .individuellImgBox {width: 25%; height: auto; margin: 0 7%; overflow: hidden; float: left;}
+    .individuellLinkBox {width: 80%; height: auto; text-align: center; margin: 3% 0 3% 10%;}
+    .individuellLinkImg {width: 10%; height: auto; margin: 0 3% 4% 3%}
+    .individuellSkillBox {width: 100%; height: auto; text-align: center;}
+    .individuellSkillImg {width: 20%; height: auto; margin: 2% 4%}
 
 
 }
