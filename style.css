@@ -67,7 +67,12 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .individuellSkillBox {width: 100%; height: auto; text-align: center;}
 .individuellSkillImg {width: 35%; height: auto; margin: 2%}
 
-
+/*-----Startsida-----*/
+#startText {text-align: center;}
+#containerImages {width: 60%; margin: 5% 20%} 
+#startBildspel {width: 100%}
+#buttonImages {}
+#startStop{}
 
 @media screen and (min-width: 800px) {
 
@@ -88,6 +93,9 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .portfolioText {text-align: center; margin: 5% 5%;}
     .portfolioBreakLine {margin: 5%; clear: both;}
 
+    
+
+
 }
 
 @media screen and (min-width: 1350px) {
@@ -96,6 +104,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     header {margin: 3% 20%; }
 
     /*-----Kontaktsida-----*/
+
+
 
 
 }
