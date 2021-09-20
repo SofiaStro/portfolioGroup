@@ -34,5 +34,14 @@ $(document).ready(function(){
     });
 
     */
+   //-------------Starta och stoppa bildspel - Startsida---------
+    var images = ['img/moasBild.jpg', 'img/omaimaBild.jpg', 'img/sofiasBild.jpg', 'img/coding.jpg'];
+    
+    $('#startStop').click(function(){
+    for(var i = 0; i < images.length-1; i++ ){
+        $('#startBildspel').attr('src', images[i])
+    }
+    });
+
 
 });
