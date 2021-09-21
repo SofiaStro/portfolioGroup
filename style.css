@@ -5,7 +5,7 @@ body {background-image: url(img/background.jpg); color: #d4d4d4;}
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Hachi Maru Pop', cursive; text-transform: uppercase;}
 a, q {font-family: 'Caveat', cursive;}
-p {font-family: 'Yantramanav', sans-serif;}
+p, label {font-family: 'Yantramanav', sans-serif;}
 
 header {margin: 7% 5%; }
 #logo {width: 85%; height: auto; float: left;}
@@ -27,6 +27,16 @@ header {margin: 7% 5%; }
 footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-align: center;}
 
 /*-----Kontaktsida-----*/
+#contactBox {padding: 0 8%;}
+.contactBoxFormRow {padding: 1em 0;}
+.contactBoxFormCol25 {width: 25%; float: left;}
+.contactBoxFormCol75 {width: 75%; float: right;}
+#contactBoxForm input {width: 60%; height: 1.5em;}
+#contactBoxForm textarea {width: 80%; height: 5em;}
+#contactBoxFormBtn {margin: 1em 0; width: 20%;}
+.breaks {clear: both;}
+
+.contactImg img {width: 100%;}
 
 
 /*-----Portfolio-----*/
@@ -88,7 +98,10 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .footerMargin {height: 7vw;}
 
     /*-----Kontaktsida-----*/
-
+    #contactBox { width: 42%; float: right; padding: 0 4%;}
+    #contactBoxText h2 {margin-top: 0;}
+    .contactImg {width: 50%; margin: 0 ;}
+    .contactImg img {width: 100%; height: auto;}
 
     /*-----Portfolio-----*/
     .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
