@@ -82,8 +82,15 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 #buttonBildspel{width: 10%; border-radius: 30%; margin: 1%}
 
 /*------Moa individuell-----*/
-#quote {width: 60%; margin: 2% 20%; text-align: center;}
-#quoteText {font-size: 7vw; text-align: center;}
+#quote {width: 60%; margin: 2% 20%; text-align: center;
+    background: #737373; box-shadow: 0 8px 32px 0 #D4AF37;
+    backdrop-filter: blur (4.5px);
+    border: 1px solid #D4AF37;}
+#quoteText {font-size: 6vw; text-align: center;}
+#personligTextBox{width: 60%; margin: 10% 20%; text-align: center;
+    background: #737373; box-shadow: 0 8px 32px 0 #D4AF37;
+    backdrop-filter: blur (4.5px);
+    border: 1px solid #D4AF37}
 #moaSkill {border-radius: 25%;}
 
 @media screen and (min-width: 800px) {
