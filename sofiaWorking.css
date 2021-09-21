@@ -25,10 +25,10 @@ header {margin: 7% 5%; }
 
 footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-align: center;}*/
 
-/*-----Kontaktsida-----*/
-#contactBox {margin: 0 7% 7%;}
+/*-----Kontaktsida-----
+#contactBox {margin: 0 7% 7%;}*/
 #contactBoxForm {background-color: blueviolet; padding: 0 4%;}
-#contactBoxForm input {width: 30%;margin: 2%;}
+#contactBoxForm input {width: 40%; margin: 2%;}
 
 .contactImg {background-color: brown; height: auto;}
 .contactImg img {width: 100%;}
@@ -45,9 +45,10 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .unvisible {visibility: visible;}*/
 
     /*-----Kontaktsida-----*/
-    #contactBox {margin: 0; width: 50%; float: right; background-color: brown;}
-    .contactImg {width: 50%; margin: 0 ;}
+    #contactBox { width: 50%; float: right; background-color: brown;}
+    
     #contactBoxForm {background-color: blueviolet;}
+    .contactImg {width: 50%; margin: 0 ;}
     .contactImg img {width: 100%; height: auto;}
 }
 
