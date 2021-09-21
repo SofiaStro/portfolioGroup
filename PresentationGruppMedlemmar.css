@@ -2,11 +2,8 @@ h1 {text-align: center;}
 p {text-align: center; font-family:  'Times New Roman'; font-size: 25px; font-weight: bolder;}
 
 
-.right {width:25%; height:auto;margin-left: auto; margin-right: auto; padding-bottom: 5%; padding-left: 5%; float: right;clear:both;}
-.left {width:25%; height:auto;margin-left: auto; padding-bottom: 5%; padding-left: 5%; float: left;clear: both;}
+.bilder {width:100%; height:auto; padding-bottom: 5%;}
+ .bilder div{width:50%; height:auto; float: left;}
+ .bilder img{width: 100%; height:auto;}
 
-#omaimas {width: 400px;height: 600px;}
-#moas { width: 400px;height: 600px;}
-#elins {width: 400px;height: 600px;}
-#sofias {width: 400px;height: 600px;}
 
