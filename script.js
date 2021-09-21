@@ -53,4 +53,5 @@ $(document).ready(function(){
    }
 //--------------Starta och stoppa bildspel- Startsida---------
 
+
 });
