@@ -92,6 +92,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     backdrop-filter: blur (4.5px);
     border: 1px solid #D4AF37}
 #moaSkill {border-radius: 25%;}
+.skillRubrik{background: #737373; text-align: center;}
 
 @media screen and (min-width: 800px) {
 
@@ -124,7 +125,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .individuellSkillImg {width: 20%; height: auto; margin: 2% 4%}
 
     /*----Moa individuell----*/
-    
+    #personligTextBox{overflow: hidden; width: 40%;}
+    #moaImg{ width: 25%; margin: 3% 7%;} 
 }
 
 @media screen and (min-width: 1350px) {
