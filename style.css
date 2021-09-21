@@ -82,7 +82,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .individuellLinkBox {width: 100%; height: auto; text-align: center; margin: 3% 0;}
 .individuellLinkImg {width: 10%; height: auto; margin: 3%}
 .individuellSkillBox {width: 100%; height: auto; text-align: center;}
-.individuellSkillImg {width: 35%; height: auto; margin: 2%}
+.individuellSkillImg {width: 35%; height: auto; margin: 2%; border-radius: 25%;}
 
 /*-----Startsida-----*/
 #startText {text-align: center;}
