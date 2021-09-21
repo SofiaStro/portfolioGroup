@@ -87,7 +87,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     backdrop-filter: blur (4.5px);
     border: 1px solid #D4AF37;}
 #quoteText {font-size: 6vw; text-align: center;}
-#personligTextBox{width: 60%; margin: 10% 20%; text-align: center;
+#personligTextBox{ margin: 10% 20%; text-align: center;
     background: #737373; box-shadow: 0 8px 32px 0 #D4AF37;
     backdrop-filter: blur (4.5px);
     border: 1px solid #D4AF37}
@@ -123,7 +123,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .individuellSkillBox {width: 100%; height: auto; text-align: center;}
     .individuellSkillImg {width: 20%; height: auto; margin: 2% 4%}
 
-
+    /*----Moa individuell----*/
+    
 }
 
 @media screen and (min-width: 1350px) {
