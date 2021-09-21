@@ -25,12 +25,13 @@ $(document).ready(function(){
     });
 
     
-    /*
-    $('#testImgOne').mouseenter(function(){
+    /*$('#testImgOne').mouseenter(function(){
         $('#testImgTwo').slideDown(1000);
+        $('#testTextBox').slideDown(1000);
     });
     $('#testImgOne').mouseleave(function(){
         $('#testImgTwo').slideUp(1000);
+        $('#testTextBox').slideUp(1000);
     });*/
 
     
