@@ -59,7 +59,7 @@ $(document).ready(function(){
            i= 0; 
        }
    }
-//--------------Starta och stoppa bildspel- Startsida---------
+    //--------------Starta och stoppa bildspel- Startsida---------
 
 
 
@@ -72,9 +72,58 @@ $(document).ready(function(){
 
 
 
-//--------------Vilidering kontakt-formulär---------
+    //--------------Vilidering kontakt-formulär------------
 
+    // Validate name
+    let $nameInput = $('#contactBoxFormName');
 
+    $nameInput.on('focus keyup', function(){
+        if($nameInput.val().length >= 3 ){
+            $nameInput.css('background-color', 'lightgreen');
+        }
+        else{
+            $nameInput.css('background-color', '#FF6060');
+        }
+    });
 
+    // Validate phone
+    let $phoneInput = $('#contactBoxFormPhone');
+
+    $phoneInput.on('focus keyup', function(){
+        let validPhone = new RegExp(/^\d+$/);
+        
+        if(validPhone.test($phoneInput.val())){
+            $phoneInput.css('background-color', 'lightgreen');
+        }
+        else{
+            $phoneInput.css('background-color', '#FF6060');
+        }
+    });
+
+    // Validate email
+    let $emailInput = $('#contactBoxFormEmail');
+
+    $emailInput.on('focus keyup', function(){
+        let validEmail = /[^@]+@[^@]+/;
+        
+        if(validEmail.test($emailInput.val())){
+            $emailInput.css('background-color', 'lightgreen');
+        }
+        else{
+            $emailInput.css('background-color', '#FF6060');
+        }
+    });
+
+    // Validate message box
+    let $msgInput = $('#contactBoxFormMsg');
+
+    $msgInput.on('focus keyup', function(){
+        if($msgInput.val().length != ""){
+            $msgInput.css('background-color', 'lightgreen');
+        }
+        else{
+            $msgInput.css('background-color', '#FF6060');
+        }
+    });
 
 });
