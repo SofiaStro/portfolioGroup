@@ -33,7 +33,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .contactBoxFormCol75 {width: 75%; float: right;}
 #contactBoxForm input {width: 60%; height: 1.5em;}
 #contactBoxForm textarea {width: 80%; height: 5em;}
-#contactBoxFormBtn {margin: 1em 0; width: 20%;}
+#contactBoxFormSubmit {margin: 1em 0; width: 20%;}
 .breaks {clear: both;}
 
 .contactImg img {width: 100%;}

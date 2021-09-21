@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    //---------Hover över meny-------------
-    let $navEl = $('#navList a')
-    $navEl.mouseenter(function(e){
+    //---------Hover över meny och kontaktformulärs-knapp-------------
+    $('#navList a, #contactBoxFormSubmit ').mouseenter(function(e){
         $(e.target).css('background-color', '#D4AF37');
     })
-    $navEl.mouseleave(function(e){
+    $('#navList a, #contactBoxFormSubmit ').mouseleave(function(e){
         $(e.target).css('background-color', '#d4d4d4');
     })
+
 
     //---------Öpnna och stäng meny i mobil version-------------
     $('#navBox').click(function(){
@@ -52,6 +52,21 @@ $(document).ready(function(){
        }
    }
 //--------------Starta och stoppa bildspel- Startsida---------
+
+
+
+
+
+
+
+
+
+
+
+
+//--------------Vilidering kontakt-formulär---------
+
+
 
 
 });
