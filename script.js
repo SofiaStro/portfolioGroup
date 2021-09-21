@@ -34,8 +34,23 @@ $(document).ready(function(){
     });*/
 
     
-   //-------------Starta och stoppa bildspel - Startsida---------
-   
+   //-------------Automatiskt bildspel- Startsida---------
+   let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];
+   let i = 0; 
 
+   window.addEventListener('load', startSlideShow);
+
+   function startSlideShow(){
+       setInterval(changeImg, 1700);
+   }
+
+   function changeImg(){
+       document.getElementById('startBildspel').setAttribute('src', images[i]);
+       i++;
+       if(i == images.length){
+           i= 0; 
+       }
+   }
+//--------------Starta och stoppa bildspel- Startsida---------
 
 });
