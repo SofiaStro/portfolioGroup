@@ -105,14 +105,24 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     border: 1px solid #D4AF37}
 .skillRubrik{background: #737373; text-align: center;}
 
+/*----Sofia individuell----*/
+.sIndividuellBoxText {width: 80%; text-align: center; margin: 0 10%;}
+.sIndividuellBoxImg{width: 100%;text-align: center;}
+.sIndividuellBoxImg img {width: 100%; }
+
+.sSocialMedia{ text-align: center;}
+
+.sQuoteBox{clear: both; background-color: #D4AF37; margin: 0em 0 2em;}
+.sQuoteBoxContent {padding: 2em; text-align:center; font-size: 40px; color: #0000AA;}
 
 @media screen and (min-width: 800px) {
 
     /*-----Allmänna inställningar-----*/
-    header {margin: 4% 7%; }
-    #logo {width: 100%; margin-bottom: 4%; text-align: center; }
+    header {margin: 0; }
+    #logo {margin: 03% 25% 3%; width: 50%; }
 
     #navBox {display: none;}
+    #nav {margin: 0; clear: both;}
     #navList {width: 80%; height: auto; position: static; margin: 0 10%; background-color:#d4d4d4; text-align: center; clear: both;}
     #navList a {width: 16%; margin: 0; padding: 2% 4%; display: inline-block; background-color: #d4d4d4; text-align: center; }
     .unvisible {visibility: visible;}
@@ -142,13 +152,15 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     #moaImg{ width: 25%; margin: 3% 7%;} 
 }
 
+   /*----Sofia individuell----*/
+   .sIndividuellBox {background-color: rgb(212, 212, 212); width: 100%;height: 30vw; color: rgb(85, 85, 85);}
+   .sIndividuellBoxText{width: 50%;margin: 0; float: right;padding: 1% 5%; height: 30vw;}
+   .sIndividuellBoxImg{width: 40%;  float: left; height: 30vw;}
+   .sIndividuellBoxImg img {width: auto; height: 30vw;}
+
+   .sSocialMedia{clear: both;}
+
 @media screen and (min-width: 1350px) {
-
-    /*-----Allmänna inställningar-----*/
-    header {margin: 3% 20%;}
-
-    /*-----Kontaktsida-----*/
-
 
 
 }
