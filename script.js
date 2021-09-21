@@ -39,8 +39,8 @@ $(document).ready(function(){
     });
     $('#testBild2').mouseleave(function(){
         $('#testTextBox').slideUp(1000);
-    });*/
-
+    });
+    */
     
    //-------------Automatiskt bildspel- Startsida---------
    let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];
