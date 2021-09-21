@@ -24,13 +24,20 @@ $(document).ready(function(){
         };
     });
 
-    
-    /*$('#testImgOne').mouseenter(function(){
+    /*
+    //--------Animering slideIn bild över annan bild------------
+    $('#testBild1').mouseenter(function(){
         $('#testImgTwo').slideDown(1000);
+    });
+    $('#testBild1').mouseleave(function(){
+        $('#testImgTwo').slideUp(1000);
+    });
+
+    //--------Animering slideIn text över annan bild------------
+    $('#testBild2').mouseenter(function(){
         $('#testTextBox').slideDown(1000);
     });
-    $('#testImgOne').mouseleave(function(){
-        $('#testImgTwo').slideUp(1000);
+    $('#testBild2').mouseleave(function(){
         $('#testTextBox').slideUp(1000);
     });*/
 

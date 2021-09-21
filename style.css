@@ -46,14 +46,14 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 .portfolioBreakLine {margin: 10%;}
 
-#testBox {
+/*.testBox {
     width: 40%;
     height: auto;
     position: relative; 
     margin: 10% 30% 5% 30%;
 }
 
-/*#testImgOne {
+.testImgOne {
     width: 100%;
     height: 100%;
 }
@@ -67,14 +67,14 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 }
 #testTextBox {
     width: 100%;
-    height: 70%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     display: none;
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    padding-top: 45%;
-}*/
+}
+#testText{ margin-top: 50%;}*/
 
 /*-----Elin Individuell-----*/
 .individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
