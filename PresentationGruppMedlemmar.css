@@ -1,5 +1,12 @@
 h1 {text-align: center;}
 p {text-align: center; font-family:  'Times New Roman'; font-size: 25px; font-weight: bolder;}
 
-.bilder {float:left; width: 25%; padding: 20px;border-radius: 50%;}
-#omaimas { width: 20px;height: 40px; position: relative;left: 50px; right: 100px;}
+
+.right {width:25%; height:auto;margin-left: auto; margin-right: auto; padding-bottom: 5%; padding-left: 5%; float: right;clear:both;}
+.left {width:25%; height:auto;margin-left: auto; padding-bottom: 5%; padding-left: 5%; float: left;clear: both;}
+
+#omaimas {width: 400px;height: 600px;}
+#moas { width: 400px;height: 600px;}
+#elins {width: 400px;height: 600px;}
+#sofias {width: 400px;height: 600px;}
+
