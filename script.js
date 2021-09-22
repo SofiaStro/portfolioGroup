@@ -89,6 +89,11 @@ $(document).ready(function(){
  
 
     //--------------Vilidering kontakt-formulär------------
+    let validName = false; 
+    let validPhone = false; 
+    let validEmail = false; 
+    let validMsg = false; 
+
 
     // Validate name
     let $nameInput = $('#contactBoxFormName');
@@ -96,9 +101,17 @@ $(document).ready(function(){
     $nameInput.on('focus keyup', function(){
         if($nameInput.val().length >= 3 ){
             $nameInput.css('background-color', 'lightgreen');
+            validName = true;
         }
         else{
             $nameInput.css('background-color', '#FF6060');
+            validName = false;
+        }
+    });
+
+    $nameInput.blur(function(){
+        if($nameInput.val() == ""){
+            $nameInput.css('background-color', 'white');
         }
     });
 
@@ -106,13 +119,21 @@ $(document).ready(function(){
     let $phoneInput = $('#contactBoxFormPhone');
 
     $phoneInput.on('focus keyup', function(){
-        let validPhone = /^\d+$/;
+        let regExPhone = /^\d+$/;
         
-        if(validPhone.test($phoneInput.val())){
+        if(regExPhone.test($phoneInput.val())){
             $phoneInput.css('background-color', 'lightgreen');
+            validPhone = true;
         }
         else{
             $phoneInput.css('background-color', '#FF6060');
+            validPhone = false;
+        }
+    });
+
+    $phoneInput.blur(function(){
+        if($phoneInput.val() == ""){
+            $phoneInput.css('background-color', 'white');
         }
     });
 
@@ -120,13 +141,21 @@ $(document).ready(function(){
     let $emailInput = $('#contactBoxFormEmail');
 
     $emailInput.on('focus keyup', function(){
-        let validEmail = /[^@]+@[^@]+/;
+        let regExEmail = /[^@]+@[^@]+/;
         
-        if(validEmail.test($emailInput.val())){
+        if(regExEmail.test($emailInput.val())){
             $emailInput.css('background-color', 'lightgreen');
+            validEmail = true;
         }
         else{
             $emailInput.css('background-color', '#FF6060');
+            validEmail = false;
+        }
+    });
+
+    $emailInput.blur(function(){
+        if($emailInput.val() == ""){
+            $emailInput.css('background-color', 'white');
         }
     });
 
@@ -134,11 +163,58 @@ $(document).ready(function(){
     let $msgInput = $('#contactBoxFormMsg');
 
     $msgInput.on('focus keyup', function(){
+        console.log($msgInput);
+        console.log($msgInput.val());
         if($msgInput.val() != ""){
             $msgInput.css('background-color', 'lightgreen');
+            validMsg = true;
+            
         }
         else{
             $msgInput.css('background-color', '#FF6060');
+            validMsg = false;
+        }
+    });
+
+    $msgInput.blur(function(){
+        if($msgInput.val() == ""){
+            $msgInput.css('background-color', 'white');
+        }
+    });
+
+    //Send form event
+    let $submitBtn = $('#contactBoxFormSubmit');
+
+    $submitBtn.click(function(e){
+        e.preventDefault();
+        let errMsg = $('#contactBoxFormError');
+
+        if(validName && validPhone && validEmail && validMsg){
+            $nameInput.css('background-color', 'white');
+            $phoneInput.css('background-color', 'white');
+            $emailInput.css('background-color', 'white');
+            $msgInput.css('background-color', 'white');
+
+            $('#contactBoxForm')[0].reset(); //Gör om från JQ till JS
+            alert('working');
+
+            validName = false; 
+            validPhone = false; 
+            validEmail = false; 
+            validMsg = false; 
+            errMsg.text("");
+        }
+        else if(!validName){
+            errMsg.text('Saknar namn');
+        }
+        else if(!validPhone){
+            errMsg.text('Saknar telefonnummer');
+        }
+        else if(!validEmail){
+            errMsg.text('Saknar email');
+        }
+        else if(!validMsg){
+            errMsg.text('Saknar meddelande');
         }
     });
 
