@@ -45,32 +45,42 @@ $(document).ready(function(){
    //-------------Automatiskt bildspel- Startsida---------
    let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];
    let i = 0; 
+   let interval;
+   let isGoing;
+   let $btnBildspel = $('#buttonBildspel');
 
-   window.addEventListener('load', startSlideShow);
+   $(window).load(startSlideShow());
 
-   function startSlideShow(){
-       setInterval(changeImg, 1700);
+    $btnBildspel.click(function(){
+        if(isGoing === true){
+            stopSlideShow();
+            $btnBildspel.attr('src', 'img/Bildspel/buttonStart.jpg');
+        }
+        else{
+            startSlideShow();
+            $btnBildspel.attr('src', 'img/Bildspel/buttonStopp.jpg');
+        }
+    });
+
+    function startSlideShow(){
+        interval = setInterval(changeImg, 1700);
+        isGoing = true;
+    }
+
+    function stopSlideShow(){
+        clearInterval(interval);
+        isGoing = false;
+    }
+
+    function changeImg(){
+        $('#startBildspel').attr('src', images[i]);
+       
+        i++;
+        if(i == images.length){
+            i= 0; 
+        }
    }
-
-   function changeImg(){
-       document.getElementById('startBildspel').setAttribute('src', images[i]);
-       i++;
-       if(i == images.length){
-           i= 0; 
-       }
-   }
-    //--------------Starta och stoppa bildspel- Startsida---------
-
-
-
-
-
-
-
-
-
-
-
+ 
 
     //--------------Vilidering kontakt-formulär------------
 
@@ -90,7 +100,7 @@ $(document).ready(function(){
     let $phoneInput = $('#contactBoxFormPhone');
 
     $phoneInput.on('focus keyup', function(){
-        let validPhone = new RegExp(/^\d+$/);
+        let validPhone = /^\d+$/;
         
         if(validPhone.test($phoneInput.val())){
             $phoneInput.css('background-color', 'lightgreen');
@@ -118,7 +128,7 @@ $(document).ready(function(){
     let $msgInput = $('#contactBoxFormMsg');
 
     $msgInput.on('focus keyup', function(){
-        if($msgInput.val().length != ""){
+        if($msgInput.val() != ""){
             $msgInput.css('background-color', 'lightgreen');
         }
         else{
