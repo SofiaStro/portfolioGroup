@@ -83,7 +83,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .individuellLinkImg {width: 10%; height: auto; margin: 3%}
 .individuellSkillBox {width: 100%; height: auto; text-align: center;}
 .individuellSkillImg {width: 35%; height: auto; margin: 2%; border-radius: 25%;}
-#elinSkillRubrik {width: 80%; margin: 5% 10%; background-color: #73737373;}
+#elinSkillRubrikBox {width: 80%; margin: 5% 10%; background-color: #73737373; clear: both;}
 #elinRubrik {width: 80%; background-color: #73737373;}
 
 /*-----Startsida-----*/
@@ -139,8 +139,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     .portfolioText {text-align: center; margin: 5% 5%;}
     .portfolioBreakLine {margin: 5%; clear: both;}
 
-    /*-----Elin Individuell-----*/
-    .individuellImgBox {width: 25%; height: auto; margin: 0 7%; overflow: hidden; float: left;}
+    /*----Elin individuell----*/
+    .individuellImgBox {width: 25%; height: auto; margin: 0 7% 5% 7%; overflow: hidden; float: left;}
     .individuellLinkBox {width: 80%; height: auto; text-align: center; margin: 3% 0 3% 10%;}
     .individuellLinkImg {width: 7%; height: auto; margin: 2% 3% 6% 3%}
     .individuellSkillBox {width: 100%; height: auto; text-align: center;}
