@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.inactive, #contactBoxFormSubmit ').mouseenter(function(e){
         $(e.target).css('background-color', '#D4AF37');
     })
-    $('#navList a, #contactBoxFormSubmit ').mouseleave(function(e){
+    $('.inactive, #contactBoxFormSubmit ').mouseleave(function(e){
         $(e.target).css('background-color', '#d4d4d4');
     })
 
