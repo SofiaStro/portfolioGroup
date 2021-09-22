@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     //---------Hover över meny och kontaktformulärs-knapp-------------
-    $('#navList a, #contactBoxFormSubmit ').mouseenter(function(e){
+    $('.inactive, #contactBoxFormSubmit ').mouseenter(function(e){
         $(e.target).css('background-color', '#D4AF37');
     })
     $('#navList a, #contactBoxFormSubmit ').mouseleave(function(e){
@@ -205,7 +205,7 @@ $(document).ready(function(){
             errMsg.text("");
         }
         else if(!validName){
-            errMsg.text('Saknar namn');
+            errMsg.text('');
         }
         else if(!validPhone){
             errMsg.text('Saknar telefonnummer');

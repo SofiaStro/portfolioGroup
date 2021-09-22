@@ -15,9 +15,11 @@ header {margin: 7% 5%; }
 #navBoxImg {width: 70%; padding: 15%; float: right;}
 
 #navList {width: 90%; height: auto; position: fixed; margin: 15% 0; padding: 0;}
-#navList a {width:30%; display: block; margin-left: 55%; padding: 8%; background-color: #d4d4d4; color: black; text-decoration: none; text-align:right;}
+#navList a {width:30%; display: block; margin-left: 55%; padding: 8%; text-decoration: none; text-align:right;}
 .unvisible {visibility: hidden;}
 .visible {visibility: visible;}
+.inactive {background-color: #d4d4d4; color: black;}
+.active {cursor: default; color:#737373; }
 
 #break {clear: both;}
 
@@ -33,7 +35,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .contactBoxFormCol75 {width: 75%; float: right;}
 #contactBoxForm input {width: 60%; height: 1.5em;}
 #contactBoxForm textarea {width: 80%; height: 5em;}
-#contactBoxFormSubmit {margin: 1em 0; width: 20%;}
+#contactBoxFormSubmit {margin: 1em 0; width: 20%; cursor: pointer;}
+#contactBoxFormError {color: #FF6060;}
 .breaks {clear: both;}
 
 .contactImg img {width: 100%;}
