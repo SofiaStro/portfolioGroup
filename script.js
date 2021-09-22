@@ -24,7 +24,13 @@ $(document).ready(function(){
         };
     });
 
-    /*
+    /*//--------Animering slineIn text när man öppnar sidan--------
+    $(window).load(slideInText)
+
+    function slideInText(){
+        $('#testTextBox').slideDown(2000);
+    }
+    
     //--------Animering slideIn bild över annan bild------------
     $('#testBild1').mouseenter(function(){
         $('#testImgTwo').slideDown(1000);
