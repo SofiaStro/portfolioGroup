@@ -1,15 +1,27 @@
-h1 {text-align: center;}
+
+/*h1 {text-align: center;}
 p {text-align: center; font-family:  'Times New Roman'; font-size: 25px; font-weight: bolder;}
 hr.solid { border-top: 5px solid; color:darkgoldenrod;}
 
-
 .bilder { display:grid; height:auto; object-fit:cover; padding-bottom: 5%; margin-left: auto; margin-right: auto; width:auto;}
  .bilder div{width:50%; height:auto; float: left;margin-top: auto; margin-left:auto; margin-right:auto}
- .bilder img{width:300px; height: 500px;margin:5%; margin-top: 5%;}
-
+ .bilder img{width:300px; height: 500px;margin:5%; margin-top: 5%;}*/
 
 
  /*----Omaimas individuella sida----*/
- 
+ #omaimah1 {text-align: left; color:darkgoldenrod;}
+ .box{ text-align:right;height: 100px;line-height: 30px; padding: 50px; float: right;box-sizing:content-box; background-color: wheat; color: black; font-size: 20px;margin: 5% 10% 5% 10%;}
 
+ /*.omaimaImgs { display:grid; height:auto; object-fit:cover; padding-bottom: 5%; margin-left: auto; margin-right: auto; width:auto;}
+ .bilder div{width:50%; height:auto; float: left;margin-top: auto; margin-left:auto; margin-right:auto}
+ .bilder img{width:300px; height: 500px;margin:5%; margin-top: 5%;}*/
+
+
+
+.skillsOmaima{display:block; width:33%; height: auto; margin: 1% 10% 1% 10%; overflow: hidden; float:right;}
+.skillsOmaima div {width: 100%; height: auto;}
+.skillsOmaima img {width: 200px; height: 200px;}
+ 
+ #OminBild{width: 35%; height: auto;}
+ 
 
