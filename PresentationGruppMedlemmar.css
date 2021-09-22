@@ -1,9 +1,15 @@
 h1 {text-align: center;}
 p {text-align: center; font-family:  'Times New Roman'; font-size: 25px; font-weight: bolder;}
+hr.solid { border-top: 5px solid; color:darkgoldenrod;}
 
 
-.bilder {width:100%; height:auto; padding-bottom: 5%;}
- .bilder div{width:50%; height:auto; float: left;}
- .bilder img{width: 100%; height:auto;}
+.bilder { display:grid; height:auto; object-fit:cover; padding-bottom: 5%; margin-left: auto; margin-right: auto; width:auto;}
+ .bilder div{width:50%; height:auto; float: left;margin-top: auto; margin-left:auto; margin-right:auto}
+ .bilder img{width:300px; height: 500px;margin:5%; margin-top: 5%;}
+
+
+
+ /*----Omaimas individuella sida----*/
+ 
 
 
