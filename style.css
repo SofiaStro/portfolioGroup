@@ -154,8 +154,10 @@ hr.solid { border: 2px solid #D4AF37;}
     /*----Presentationssida----*/
     
     .box {padding: 0; margin: 0; width:100%; height:auto;}
-    .boxContent {width:45%; height:auto; float: left; margin: 2.5% 2.5%;}
-    .boxContentImg {width:100%; height: auto;}
+    .boxLeft {width: 48%; float: left; margin: 0 1% 0 1%;}
+    .boxRight {width: 48%; float: right; margin: 0 1% 0 1%; }
+    .boxContent {width:100%; height:30vw; margin: 4% 0;}
+    .boxContentImg {width:100%; height: 100%;}
 
     /*----Elin individuell----*/
     .individuellImgBox {width: 25%; height: auto; margin: 0 7% 5% 7%; overflow: hidden; float: left;}
