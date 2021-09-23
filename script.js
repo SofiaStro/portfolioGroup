@@ -24,29 +24,12 @@ $(document).ready(function(){
         };
     });
 
-    /*//--------Animering slineIn text när man öppnar sidan--------
+    //--------Animering slineIn text när man öppnar sidan--------
     $(window).load(slideInText)
 
     function slideInText(){
-        $('#testTextBox').slideDown(2000);
+        $('.boxContentBox').slideDown(3000);
     }
-    
-    //--------Animering slideIn bild över annan bild------------
-    $('#testBild1').mouseenter(function(){
-        $('#testImgTwo').slideDown(1000);
-    });
-    $('#testBild1').mouseleave(function(){
-        $('#testImgTwo').slideUp(1000);
-    });
-
-    //--------Animering slideIn text över annan bild------------
-    $('#testBild2').mouseenter(function(){
-        $('#testTextBox').slideDown(1000);
-    });
-    $('#testBild2').mouseleave(function(){
-        $('#testTextBox').slideUp(1000);
-    });
-    */
     
    //-------------Automatiskt bildspel- Startsida---------
    let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];

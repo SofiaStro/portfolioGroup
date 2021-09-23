@@ -44,40 +44,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 /*-----Portfolio-----*/
 .portfolioImgBox {width: 40%; height: auto; margin: 10% 30% 5% 30%; overflow: hidden;} 
-
 .portfolioText {text-align: center; margin: 5% 10%;}
-
 .portfolioBreakLine {margin: 10%;}
-
-/*.testBox {
-    width: 40%;
-    height: auto;
-    position: relative; 
-    margin: 10% 30% 5% 30%;
-}
-
-.testImgOne {
-    width: 100%;
-    height: 100%;
-}
-
-#testImgTwo {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    display: none;
-}
-#testTextBox {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
-}
-#testText{ margin-top: 50%;}*/
 
 /*-----Elin Individuell-----*/
 .individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
@@ -99,11 +67,11 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 /*------Om oss-----*/
 #content { width: 100%; text-align: center;}
 .box{width: 70%; margin: 0 15%;}
-.boxContent {width: 100%; height: 45vw; margin: 10% 0; }
-.boxContentImg {width: 100%; overflow: hidden;}
+.boxContent {width: 100%; height: 45vw; margin: 10% 0; position: relative;}
+.boxContentImg {width: 100%; height: 100%; overflow: hidden;}
 hr.solid { border: 2px solid #D4AF37;}
-
-
+.boxContentBox { width: 100%; height: 100%; margin: 0; position: absolute; bottom: 0; display: none; background-color: rgba(0, 0, 0, 0.466);}
+.boxContentText { color: #d4d4d4;}
 
 /*------Moa individuell-----*/
 #quote {width: 60%; margin: 2% 20%; text-align: center;
