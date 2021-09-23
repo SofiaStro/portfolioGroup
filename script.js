@@ -8,7 +8,6 @@ $(document).ready(function(){
         $(e.target).css('background-color', '#d4d4d4');
     })
 
-
     //---------Öpnna och stäng meny i mobil version-------------
     $('#navBox').click(function(){
         let $nav = $('#navList');
@@ -24,30 +23,23 @@ $(document).ready(function(){
         };
     });
 
-    //--------Animering slineIn text när man öppnar sidan--------
-    $(window).load(slideInText)
+    //-------------Automatiskt bildspel- Startsida---------
+    let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];
+    let i = 0; 
+    let interval;
+    let isGoing;
+    let btnBildspel = document.getElementById('buttonBildspel');
 
-    function slideInText(){
-        $('.boxContentBox').slideDown(3000);
-    }
-    
-   //-------------Automatiskt bildspel- Startsida---------
-   let images = ['img/Bildspel/1.jpg', 'img/Bildspel/2.jpg', 'img/Bildspel/3.jpg', 'img/Bildspel/4.jpg'];
-   let i = 0; 
-   let interval;
-   let isGoing;
-   let $btnBildspel = $('#buttonBildspel');
+    window.addEventListener('load', startSlideShow());
 
-   $(window).load(startSlideShow());
-
-    $btnBildspel.click(function(){
+    btnBildspel.addEventListener('click', function(){
         if(isGoing === true){
             stopSlideShow();
-            $btnBildspel.attr('src', 'img/Bildspel/buttonStart.jpg');
+            btnBildspel.setAttribute('src', 'img/Bildspel/buttonStart.jpg');
         }
         else{
             startSlideShow();
-            $btnBildspel.attr('src', 'img/Bildspel/buttonStopp.jpg');
+            btnBildspel.setAttribute('src', 'img/Bildspel/buttonStopp.jpg');
         }
     });
 
@@ -62,21 +54,26 @@ $(document).ready(function(){
     }
 
     function changeImg(){
-        $('#startBildspel').attr('src', images[i]);
-       
+        document.getElementById('startBildspel').setAttribute('src', images[i]);
+            
         i++;
         if(i == images.length){
             i= 0; 
         }
-   }
- 
+    }
 
-    //--------------Vilidering kontakt-formulär------------
+    //--------Animering slideIn text när man öppnar sidan--------
+    $(window).load(slideInText)
+
+    function slideInText(){
+        $('.boxContentBox').slideDown(3000);
+    }
+    
+    //--------------Validering kontakt-formulär------------
     let validName = false; 
     let validPhone = false; 
     let validEmail = false; 
     let validMsg = false; 
-
 
     // Validate name
     let $nameInput = $('#contactBoxFormName');
