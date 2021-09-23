@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
-        <title>Portfolio Group - Start</title>
+        <title>Portfolio Group - Om oss</title>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="style.css" />
+        
 
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Hachi+Maru+Pop&family=Yantramanav:wght@300&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Hachi+Maru+Pop&family=Yantramanav:wght@300&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
     <body>
@@ -20,10 +21,10 @@
             </div>
             <nav id="nav">
                 <div id="navList" class="unvisible">
-                    <a href="#">START</a>
-                    <a href="#">OM OSS</a>
-                    <a href="#">PROJEKT</a>
-                    <a href="#">KONTAKT</a>
+                    <a href="index.html" class="inactive">START</a>
+                    <a href="" class="active"><u>OM OSS</u></a>
+                    <a href="projekt.html" class="inactive">PROJEKT</a>
+                    <a href="kontakt.html" class="inactive">KONTAKT</a>
                 </div>
             </nav>
         </header>
@@ -32,17 +33,68 @@
 
         <div id="content">
 
-        </div>
-  
+        
 
+        <h1 id="medlemh1">Medlemmar</h1>
+        <p id="medlemP">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <hr class="solid">
+        <div class="box">
+            <div class="boxRight">
+                <div id="omaimas" class="boxContent">
+                    <a href="http://127.0.0.1:5500/omaima.html#">
+                    <img src="img/Omaima/omaimaBild.jpg" alt="" class="boxContentImg"/>
+                    <div class="boxContentBox">
+                        <h1 class="boxContentText">OMAIMA RAHALI</h1>
+                    </div> 
+                    </a>  
+                </div>
+                 
+                <div id="moas" class="boxContent">
+                    <a href="http://127.0.0.1:5500/moa.html">
+                        <img src="img/Moa/moaOmOssSidan.jpg" alt ="" class="boxContentImg"/> 
+                        <div class="boxContentBox">
+                            <h1 class="boxContentText">MOA HEDLUND</h1>
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+                
+                <div class="boxLeft">
+                    <div id="elins" class="boxContent">
+                        <a href="http://127.0.0.1:5500/elin.html">
+                            <img src="img/Elin/elinOmOssSidan.jpg" alt="" class="boxContentImg"/> 
+                            <div class="boxContentBox">
+                                <h1 class="boxContentText">ELIN AHLGREN</h1>
+                            </div>
+                        </a>
+                        
+                    </div>
+                   
+                    <div id="sofias" class="boxContent">
+                        <a href="http://127.0.0.1:5500/sofia.html">
+                            <img src="img/Sofia/sofiaOmOssSidan.jpg" alt="" class="boxContentImg"/>
+                            <div class="boxContentBox">
+                                <h1 class="boxContentText">SOFIA STRÖMBERG</h1>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+             
+             </div>
+            
+        
+            </div>
+       
+
+
+    <div class="footerMargin"></div>
         <footer>
             <p>&copy; Portfolio Group AB</p>
         </footer>
 
-
-
-
         <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <script src="script.js"></script>
+        <script src="query.js"></script>
     </body>
 </html>
