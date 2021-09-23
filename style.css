@@ -76,11 +76,11 @@ hr.solid { border: 2px solid #D4AF37;}
 /*------Moa individuell-----*/
 #quote {width: 60%; margin: 2% 20%; text-align: center;
     background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
-    border: 1px solid #D4AF37;}
+    border: 0.2vw solid #D4AF37;}
 #quoteText {font-size: 6vw; text-align: center;}
 #personligTextBox{ margin: 10% 20%; text-align: center;
     background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
-    border: 1px solid #D4AF37}
+    border: 0.2vw solid #D4AF37}
 .skillRubrik{background: #737373; text-align: center;}
 
 /*----Sofia individuell----*/
