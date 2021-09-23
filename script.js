@@ -163,12 +163,10 @@ $(document).ready(function(){
     let $msgInput = $('#contactBoxFormMsg');
 
     $msgInput.on('focus keyup', function(){
-        console.log($msgInput);
-        console.log($msgInput.val());
+
         if($msgInput.val() != ""){
             $msgInput.css('background-color', 'lightgreen');
             validMsg = true;
-            
         }
         else{
             $msgInput.css('background-color', '#FF6060');
@@ -196,7 +194,6 @@ $(document).ready(function(){
             $msgInput.css('background-color', 'white');
 
             $('#contactBoxForm')[0].reset(); //Gör om från JQ till JS
-            alert('working');
 
             validName = false; 
             validPhone = false; 
@@ -205,10 +202,10 @@ $(document).ready(function(){
             errMsg.text("");
         }
         else if(!validName){
-            errMsg.text('');
+            errMsg.text('Namn felaktigt inmatat');
         }
         else if(!validPhone){
-            errMsg.text('Saknar telefonnummer');
+            errMsg.text('Telefon felaktigt inmatat');
         }
         else if(!validEmail){
             errMsg.text('Saknar email');
