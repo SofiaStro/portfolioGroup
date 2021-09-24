@@ -74,11 +74,11 @@ hr.solid { border: 2px solid #D4AF37;}
 .boxContentText { color: #d4d4d4;}
 
 /*------Moa individuell-----*/
-#quote {width: 60%; margin: 2% 20%; text-align: center;
+.quoteBox {width: 60%; margin: 2% 20%; text-align: center;
     background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
     border: 0.2vw solid #D4AF37;}
-#quoteText {font-size: 6vw; text-align: center;}
-#personligTextBox{ margin: 10% 20%; text-align: center;
+.quoteBoxText {font-size: 6vw; text-align: center;}
+.personligTextBox{ margin: 10% 20%; text-align: center;
     background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
     border: 0.2vw solid #D4AF37}
 .skillRubrik{background: #737373; text-align: center;}
@@ -134,7 +134,7 @@ hr.solid { border: 2px solid #D4AF37;}
     #elinRubrik {width: 50%; background-color: #73737373; margin-left: 40%}
 
     /*----Moa individuell----*/
-    #personligTextBox{overflow: hidden; width: 40%;}
+    .personligTextBox{overflow: hidden; width: 40%;}
     #moaImg{ width: 25%; margin: 3% 7%;} 
 
     /*----Sofia individuell----*/
