@@ -93,7 +93,7 @@ hr.solid { border: 2px solid #D4AF37;}
 .sQuoteBox{clear: both; background-color: #D4AF37; margin: 0em 0 2em;}
 .sQuoteBoxContent {padding: 2em; text-align:center; font-size: 40px; color: #0000AA;}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 
     /*-----Allmänna inställningar-----*/
     header {margin: 0; }
@@ -135,7 +135,7 @@ hr.solid { border: 2px solid #D4AF37;}
 
     /*----Moa individuell----*/
     .personligTextBox{overflow: hidden; width: 40%;}
-    #moaImg{ width: 25%; margin: 3% 7%;} 
+    #moaImg{ width: 25%; margin: 3% 7%;}  
 
     /*----Sofia individuell----*/
    .sIndividuellBox {background-color: rgb(212, 212, 212); width: 100%;height: 30vw; color: rgb(85, 85, 85);}
@@ -146,15 +146,15 @@ hr.solid { border: 2px solid #D4AF37;}
    .sSocialMedia{clear: both;}
 
       /*----Omaimas individuella sida----*/
-    .oindividuellTextBox{width:50%; float: right;}
-    .oindividuellText{width:50%; color: rgba(255, 255, 255, 0.863);}
-    #mittNamn{width:50%;background-color: #73737386;}
-    .oindividuellImgBoxImg{width:30%; margin:5% 5%;}
-    .oindividuellImg{width:20%;height:auto;}
-    .oindividuellTextSkills{width: 100%; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
-    .skillsOmaimaImgBox{width:100%; height: auto;text-align: center;overflow: hidden;}
-    .skillsOmaimaImgBoxImg{width:25%; height: auto;margin: 2% 2%;}
-
+      
+      .oindividuellTextBox{width:50%; height:auto;float:right;}
+      .oindividuellText{width:80%;height: auto; color: rgba(255, 255, 255, 0.863);}
+      #mittNamn{width:50%; height:auto;background-color: #73737386;}
+      .oindividuellImgBoxImg{width:40%; height: auto; margin:2% 4%;}
+      .oindividuellTextSkills{width: 100%;height:auto; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
+      .skillsOmaimaImgBox{width:100%;height:auto;text-align: center;overflow: hidden;}
+      .skillsOmaimaImgBoxImg{width:25%;height: auto;margin: 2% 4%;}
+  
 }
 
    
