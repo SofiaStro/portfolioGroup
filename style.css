@@ -144,6 +144,17 @@ hr.solid { border: 2px solid #D4AF37;}
    .sIndividuellBoxImg img {width: auto; height: 30vw; }
 
    .sSocialMedia{clear: both;}
+
+      /*----Omaimas individuella sida----*/
+    .oindividuellTextBox{width:50%; float: right;}
+    .oindividuellText{width:50%; color: rgba(255, 255, 255, 0.863);}
+    #mittNamn{width:50%;background-color: #73737386;}
+    .oindividuellImgBoxImg{width:30%; margin:5% 5%;}
+    .oindividuellImg{width:20%;height:auto;}
+    .oindividuellTextSkills{width: 100%; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
+    .skillsOmaimaImgBox{width:100%; height: auto;text-align: center;overflow: hidden;}
+    .skillsOmaimaImgBoxImg{width:25%; height: auto;margin: 2% 2%;}
+
 }
 
    
