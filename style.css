@@ -93,7 +93,7 @@ hr.solid { border: 2px solid #D4AF37;}
 .sQuoteBox{clear: both; background-color: #D4AF37; margin: 0em 0 2em;}
 .sQuoteBoxContent {padding: 2em; text-align:center; font-size: 40px; color: #0000AA;}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 
     /*-----Allmänna inställningar-----*/
     header {margin: 0; }
@@ -147,13 +147,13 @@ hr.solid { border: 2px solid #D4AF37;}
 
       /*----Omaimas individuella sida----*/
       
-      .oindividuellTextBox{width:50%; height:auto;float:right;}
-      .oindividuellText{width:80%;height: auto; color: rgba(255, 255, 255, 0.863);}
-      #mittNamn{width:50%; height:auto;background-color: #73737386;}
-      .oindividuellImgBoxImg{width:40%; height: auto; margin:2% 4%;}
-      .oindividuellTextSkills{width: 100%;height:auto; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
-      .skillsOmaimaImgBox{width:100%;height:auto;text-align: center;overflow: hidden;}
-      .skillsOmaimaImgBoxImg{width:25%;height: auto;margin: 2% 4%;}
+    .oindividuellTextBox{width:40%; height:auto;float:right; overflow: hidden;}
+    .oindividuellText{width:100%;height: auto; color: rgba(255, 255, 255, 0.863);overflow: hidden;}
+    #mittNamn{width:50%; height:auto;background-color: #73737386;overflow: hidden;}
+    .oindividuellImgBoxImg{width:100%; height: auto; margin:2% 2%;}
+    .oindividuellTextSkills{width: 100%;height:auto; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
+    .skillsOmaimaImgBox{width:100;height:auto;text-align: center;}
+    .skillsOmaimaImgBoxImg{width:25%;height: auto; margin: 1% 3%;}
   
 }
 
