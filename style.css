@@ -90,7 +90,10 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .sQuoteBoxContent {padding: 2em; text-align:center; font-size: 2.5em; color: #0000AA;}
 
 /*----Omaima individuell----*/
-
+.oindividuellTextBox{width:90%; height:auto; overflow: hidden;float: right; padding: 1% 2%;}
+#OmaimaNamn{width:90%; height:auto;background-color:darkkhaki;text-align: center;}
+#OmaimaText{width:80%;height: auto; color: rgba(255, 255, 255, 0.863);text-align: center;margin: 2% 2%; }
+#oindividuellTextSkills{width:100%;background-color:darkkhaki; text-align:center; }
 
 @media screen and (min-width: 768px) {
 
@@ -146,13 +149,11 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
    .sSocialMedia{clear: both;}
 
     /*----Omaima individuell----*/
-    .oindividuellTextBox{width:40%; height:auto;float:right; overflow: hidden;}
-    .oindividuellText{width:100%;height: auto; color: rgba(255, 255, 255, 0.863);overflow: hidden;}
-    #mittNamn{width:50%; height:auto;background-color: #73737386;overflow: hidden;}
-    .oindividuellImgBoxImg{width:100%; height: auto; margin:2% 2%;}
-    .oindividuellTextSkills{width: 100%;height:auto; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
-    .skillsOmaimaImgBox{width:100%;height:auto;text-align: center;}
-    .skillsOmaimaImgBoxImg{width:25%;height: auto; margin: 1% 3%;}
+    .oindividuellTextBox{width:50%;text-align: center; overflow: hidden;margin: 1% 1%; padding: 1%, 3%;}
+    #OmaimaNamn{background-color:darkkhaki}
+    #OmaimaText{color: rgba(255, 255, 255, 0.863);}
+    #oindividuellTextSkills{width:100%;background-color:darkkhaki;text-align: center;}
+  
 }
 
    
