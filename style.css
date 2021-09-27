@@ -157,7 +157,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
    .sSocialMedia{clear: both;}
 
     /*----Omaima individuell----*/
-    .oindividuellTextBox{width:50%;text-align: center; overflow: hidden;margin: 1% 1%; padding: 1%, 3%;}
+    .oindividuellTextBox{width:50%;text-align: center; overflow: hidden;margin: 1% 1%; padding: 1% 3%;}
     #OmaimaNamn{background-color:darkkhaki}
     #OmaimaText{color: rgba(255, 255, 255, 0.863);}
     #oindividuellTextSkills{width:100%;background-color:darkkhaki;text-align: center;}
