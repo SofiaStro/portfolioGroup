@@ -82,7 +82,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 
 /*----Sofia individuell----*/
 .sIndividuellBoxText {width: 80%; text-align: center; margin: 0 10%;}
-.sIndividuellBoxImg{width: 100%; background-image: url(img/Sofia/sofiaOmOssSidan.jpg); background-position: center; height: 70vw; background-size: cover;}
+.sIndividuellBoxImg{width: 100%; background-image: url(img/Sofia/sofiaImg.jpg); background-position: center; height: 70vw; background-size: cover;}
 
 .sSocialMedia{ text-align: center;}
 
