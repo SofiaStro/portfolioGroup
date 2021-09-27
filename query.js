@@ -1,12 +1,10 @@
-
-
 $(document).ready(function(){
 
     //---------Hover över meny och kontaktformulärs-knapp-------------
-    $('.inactive, #contactBoxFormSubmit ').mouseenter(function(e){
+    $('.inactive, #contactBoxFormSubmit').mouseenter(function(e){
         $(e.target).css('background-color', '#D4AF37');
     })
-    $('.inactive, #contactBoxFormSubmit ').mouseleave(function(e){
+    $('.inactive, #contactBoxFormSubmit').mouseleave(function(e){
         $(e.target).css('background-color', '#d4d4d4');
     })
 
@@ -157,5 +155,4 @@ $(document).ready(function(){
             errMsg.text('Meddelande saknas');
         }
     });
-
 });
