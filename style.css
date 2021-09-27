@@ -95,7 +95,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 .oindividuellTextBox{width:90%; height:auto; overflow: hidden;float: right; padding: 1% 2%;}
 #OmaimaNamn{width:90%; height:auto;background-color:darkkhaki;text-align: center;}
 #OmaimaText{width:80%;height: auto; color: rgba(255, 255, 255, 0.863);text-align: center;margin: 2% 2%; }
-#oindividuellTextSkills{width:100%;background-color:darkkhaki; text-align:center; }
+#oindividuellTextSkills{width:100%;background-color:darkkhaki; text-align:center; clear: both;}
 
 @media screen and (min-width: 768px) {
 
