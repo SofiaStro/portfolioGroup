@@ -60,7 +60,7 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 #contactBoxFormSubmit {margin: 1em 0; width: 20%; cursor: pointer;}
 #contactBoxFormError {color: #FF6060;}
 
-.contactImg img {width: 100%;}
+.contactImg img {width: 100%; height: auto;}
 
 /*-----Allmänna inställningar individuellsida-----*/
 .individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
@@ -121,8 +121,8 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
     /*-----Kontaktsida-----*/
     #contactBox { width: 42%; float: right; padding: 0 4%;}
     #contactBoxText h2 {margin-top: 0;}
-    .contactImg {width: 50%; margin: 0 ;}
-    .contactImg img {width: 100%; height: auto;}
+    .contactImg {width: 50%; margin: 0 ; height: 45vh; overflow: hidden; text-align: center;}
+    .contactImg img {width: auto; height: 100%;}
 
     /*----Allmänna inställningar individuellsida----*/
     .individuellImgBox {width: 25%; height: auto; margin: 0 7% 5% 7%; overflow: hidden; float: left;}
