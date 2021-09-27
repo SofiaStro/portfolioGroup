@@ -1,4 +1,3 @@
-
 /*-----Allmänna inställningar-----*/
 html, body {width: 100%; height: auto; padding: 0; margin: 0;}
 body {background-image: url(img/background.jpg); color: #d4d4d4;}
@@ -21,12 +20,35 @@ header {margin: 7% 5%; }
 .inactive {background-color: #d4d4d4; color: black;}
 .active {cursor: default; color:#737373; background-color: #d4d4d4;}
 
-#break {clear: both;}
+.breaks {clear: both;}
 
 .fullWidth {width: 100%; height: auto;}
 .footerMargin {width: 100%; height: 10vw; clear: both;}
 
 footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-align: center;}
+
+/*-----Index - Startsida------*/
+#startText {text-align: center; width: 60%;  margin: 2% 20%;}
+#containerImages {width: 70%; margin: 0 15%} 
+#startBildspel {width: 100%}
+#buttonImages { margin: 0 20%; width: 60%; text-align: right;}
+#buttonBildspel{width: 10%; border-radius: 30%; margin: 1%}
+
+/*------Om oss sida-----*/
+#content { width: 100%; text-align: center;}
+#medlemP {width: 80%; margin: 0 10% 1.5em;}
+.box{width: 70%; margin: 0 15%;}
+.boxContent {width: 100%; height: 45vw; margin: 10% 0; position: relative;}
+.boxContentImg {width: 100%; height: 100%; overflow: hidden;}
+.boxContentBox { width: 100%; height: 100%; margin: 0; position: absolute; bottom: 0; display: none; background-color: rgba(0, 0, 0, 0.466);}
+.boxContentText { color: #d4d4d4;}
+.omTextBox {width: 80%; margin: 0 10%; border: 0.2em solid #D4AF37;}
+.omTextBox p {font-family: 'Caveat', cursive; font-size: 1.2em;}
+
+/*-----Projektsida-----*/
+.portfolioImgBox {width: 40%; height: auto; margin: 10% 30% 5% 30%; overflow: hidden;} 
+.portfolioText {text-align: center; margin: 5% 10%;}
+.portfolioBreakLine {margin: 10%;}
 
 /*-----Kontaktsida-----*/
 #contactBox {padding: 0 8%;}
@@ -37,50 +59,25 @@ footer {width: 100%; position: fixed; bottom: 0; background-color: black; text-a
 #contactBoxForm textarea {width: 80%; height: 5em;}
 #contactBoxFormSubmit {margin: 1em 0; width: 20%; cursor: pointer;}
 #contactBoxFormError {color: #FF6060;}
-.breaks {clear: both;}
 
 .contactImg img {width: 100%;}
 
-
-/*-----Portfolio-----*/
-.portfolioImgBox {width: 40%; height: auto; margin: 10% 30% 5% 30%; overflow: hidden;} 
-.portfolioText {text-align: center; margin: 5% 10%;}
-.portfolioBreakLine {margin: 10%;}
-
-/*-----Elin Individuell-----*/
+/*-----Allmänna inställningar individuellsida-----*/
 .individuellImgBox {width: 60%; height: auto; margin: 5% 20% 5% 20%; overflow: hidden;}
 .individuellText {text-align: center; margin: 5% 10% 0 10%;}
 .individuellLinkBox {width: 100%; height: auto; text-align: center; margin: 3% 0;}
 .individuellLinkImg {width: 10%; height: auto; margin: 3%}
 .individuellSkillBox {width: 100%; height: auto; text-align: center;}
 .individuellSkillImg {width: 35%; height: auto; margin: 2%; border-radius: 25%;}
+
+/*-----Elin Individuell-----*/
 #elinSkillRubrikBox {width: 80%; margin: 0 10%; background-color: #73737373; clear: both;}
 #elinRubrik {width: 80%; background-color: #73737373;}
 
-/*-----Startsida-----*/
-#startText {text-align: center; width: 60%;  margin: 2% 20%;}
-#containerImages {width: 70%; margin: 0 15%} 
-#startBildspel {width: 100%}
-#buttonImages { margin: 0 20%; width: 60%; text-align: right;}
-#buttonBildspel{width: 10%; border-radius: 30%; margin: 1%}
-
-/*------Om oss-----*/
-#content { width: 100%; text-align: center;}
-.box{width: 70%; margin: 0 15%;}
-.boxContent {width: 100%; height: 45vw; margin: 10% 0; position: relative;}
-.boxContentImg {width: 100%; height: 100%; overflow: hidden;}
-hr.solid { border: 2px solid #D4AF37;}
-.boxContentBox { width: 100%; height: 100%; margin: 0; position: absolute; bottom: 0; display: none; background-color: rgba(0, 0, 0, 0.466);}
-.boxContentText { color: #d4d4d4;}
-
 /*------Moa individuell-----*/
-.quoteBox {width: 60%; margin: 2% 20%; text-align: center;
-    background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
-    border: 0.2vw solid #D4AF37;}
+.quoteBox {width: 60%; margin: 2% 20%; text-align: center; background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37; border: 0.2vw solid #D4AF37;}
 .quoteBoxText {font-size: 6vw; text-align: center;}
-.personligTextBox{ margin: 10% 20%; text-align: center;
-    background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37;
-    border: 0.2vw solid #D4AF37}
+.personligTextBox{ margin: 10% 20%; text-align: center; background: #737373; box-shadow: 0 1vw 4vw 0 #D4AF37; border: 0.2vw solid #D4AF37}
 .skillRubrik{background: #737373; text-align: center;}
 
 /*----Sofia individuell----*/
@@ -91,9 +88,12 @@ hr.solid { border: 2px solid #D4AF37;}
 .sSocialMedia{ text-align: center;}
 
 .sQuoteBox{clear: both; background-color: #D4AF37; margin: 0em 0 2em;}
-.sQuoteBoxContent {padding: 2em; text-align:center; font-size: 40px; color: #0000AA;}
+.sQuoteBoxContent {padding: 2em; text-align:center; font-size: 2.5em; color: #0000AA;}
 
-@media screen and (min-width: 800px) {
+/*----Omaima individuell----*/
+
+
+@media screen and (min-width: 768px) {
 
     /*-----Allmänna inställningar-----*/
     header {margin: 0; }
@@ -106,31 +106,33 @@ hr.solid { border: 2px solid #D4AF37;}
     .unvisible {visibility: visible;}
     .footerMargin {height: 7vw;}
 
-    /*-----Kontaktsida-----*/
-    #contactBox { width: 42%; float: right; padding: 0 4%;}
-    #contactBoxText h2 {margin-top: 0;}
-    .contactImg {width: 50%; margin: 0 ;}
-    .contactImg img {width: 100%; height: auto;}
-
-    /*-----Portfolio-----*/
-    .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
-    .portfolioText {text-align: center; margin: 5% 5%;}
-    .portfolioBreakLine {margin: 5%; clear: both;}
-
-    /*----Presentationssida----*/
-    
+    /*----Om oss sida----*/
+    #medlemP {width: 60%; margin: 0 20% 1.5em;}
     .box {padding: 0; margin: 0; width:100%; height:auto;}
     .boxLeft {width: 48%; float: left; margin: 0 1% 0 1%;}
     .boxRight {width: 48%; float: right; margin: 0 1% 0 1%; }
     .boxContent {width:100%; height:30vw; margin: 4% 0;}
     .boxContentImg {width:100%; height: 100%;}
 
-    /*----Elin individuell----*/
+    /*-----Projektsida-----*/
+    .portfolioImgBox {width: 20%; height: auto; margin: 1% 5% 5% ; float: left;}
+    .portfolioText {text-align: center; margin: 5% 5%;}
+    .portfolioBreakLine {margin: 5%; clear: both;}
+
+    /*-----Kontaktsida-----*/
+    #contactBox { width: 42%; float: right; padding: 0 4%;}
+    #contactBoxText h2 {margin-top: 0;}
+    .contactImg {width: 50%; margin: 0 ;}
+    .contactImg img {width: 100%; height: auto;}
+
+    /*----Allmänna inställningar individuellsida----*/
     .individuellImgBox {width: 25%; height: auto; margin: 0 7% 5% 7%; overflow: hidden; float: left;}
     .individuellLinkBox {width: 80%; height: auto; text-align: center; margin: 3% 0 3% 10%;}
     .individuellLinkImg {width: 7%; height: auto; margin: 2% 3% 6% 3%}
     .individuellSkillBox {width: 100%; height: auto; text-align: center;}
     .individuellSkillImg {width: 20%; height: auto; margin: 2% 4%}
+   
+    /*----Elin individuell----*/
     #elinRubrik {width: 50%; background-color: #73737373; margin-left: 40%}
 
     /*----Moa individuell----*/
@@ -138,23 +140,21 @@ hr.solid { border: 2px solid #D4AF37;}
     #moaImg{ width: 25%; margin: 3% 7%;}  
 
     /*----Sofia individuell----*/
-   .sIndividuellBox {background-color: rgb(212, 212, 212); width: 100%;height: 30vw; color: rgb(85, 85, 85);}
-   .sIndividuellBoxText{width: 50%;margin: 0; float: right;padding: 1% 5%; height: 30vw;}
-   .sIndividuellBoxImg{width: 40%;  float: left; height: 30vw;overflow: hidden;}
-   .sIndividuellBoxImg img {width: auto; height: 30vw; }
+   .sIndividuellBox {background-color: rgb(212, 212, 212); width: 100%;height: 35vw; color: rgb(85, 85, 85);}
+   .sIndividuellBoxText{width: 50%;margin: 0; float: right;padding: 1% 5%; height: 35vw;}
+   .sIndividuellBoxImg{width: 40%;  float: left; height: 35vw;overflow: hidden;}
+   .sIndividuellBoxImg img {width: auto; height: 35vw;}
 
    .sSocialMedia{clear: both;}
 
-      /*----Omaimas individuella sida----*/
-      
+    /*----Omaima individuell----*/
     .oindividuellTextBox{width:40%; height:auto;float:right; overflow: hidden;}
     .oindividuellText{width:100%;height: auto; color: rgba(255, 255, 255, 0.863);overflow: hidden;}
     #mittNamn{width:50%; height:auto;background-color: #73737386;overflow: hidden;}
     .oindividuellImgBoxImg{width:100%; height: auto; margin:2% 2%;}
     .oindividuellTextSkills{width: 100%;height:auto; text-align: center;background-color:#73737386;color: rgba(255, 255, 255, 0.863);}
-    .skillsOmaimaImgBox{width:100;height:auto;text-align: center;}
+    .skillsOmaimaImgBox{width:100%;height:auto;text-align: center;}
     .skillsOmaimaImgBoxImg{width:25%;height: auto; margin: 1% 3%;}
-  
 }
 
    

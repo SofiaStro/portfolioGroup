@@ -26,10 +26,10 @@ $(document).ready(function(){
     });
 
     //--------Animering slideIn text när man öppnar sidan--------
-    $(window).load(slideInText)
+    $(window).scroll(slideInText)
 
     function slideInText(){
-        $('.boxContentBox').slideDown(3000);
+        $('.boxContentBox').slideDown(4000);
     }
     
     //--------------Validering kontakt-formulär------------
@@ -145,16 +145,16 @@ $(document).ready(function(){
             errMsg.text("");
         }
         else if(!validName){
-            errMsg.text('Namn felaktigt inmatat');
+            errMsg.text('Namn måste vara minst 3 tecken');
         }
         else if(!validPhone){
-            errMsg.text('Telefon felaktigt inmatat');
+            errMsg.text('Telefon måste anges i siffror');
         }
         else if(!validEmail){
-            errMsg.text('Saknar email');
+            errMsg.text('Email adressen är felaktigt inmatad');
         }
         else if(!validMsg){
-            errMsg.text('Saknar meddelande');
+            errMsg.text('Meddelande saknas');
         }
     });
 
